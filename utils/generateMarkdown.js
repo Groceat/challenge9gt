@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function licenseB(license) {
   if (license !== 'None') {
-    return `[license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `(https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return "";
 }
@@ -11,7 +11,7 @@ function licenseB(license) {
 // If there is no license, return an empty string
 function licenseL(license) {
   if (license !== 'None') {
-    return `[license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `(#license)`;
   }
   return "";
 }
@@ -19,7 +19,7 @@ function licenseL(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function liscenseS(license) {if (license !== 'None') {
-  return `[GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  return `This project license is  ${license}.`;
 }
 return "";}
 
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 
   * [Usage](#usage)
 
-  ${renderLicenseLink(data.license)}(#license)
+  ${licenseL(data.license)}(#license)
 
   * [Contributing](#contributing)
   
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   
   ## Installation
   
-  To install dependencies, run the command below:
+  To install dependencies, run:
   
   ${data.install}
 
@@ -57,6 +57,8 @@ function generateMarkdown(data) {
   ${data.rinfo}
   
   ${liscenseS(data.license)}
+
+  ${licenseB(license)}
     
   ## Contributing
   
@@ -64,14 +66,14 @@ function generateMarkdown(data) {
   
   ## Tests
   
-  To run tests, run the command:
+  To run tests, run:
   
   ${data.test}
   
   ## Questions
   
-Contact Email: ${data.email}. 
-Link to github: [${data.github}](https://github.com/${data.github}/).
+Contact me at: ${data.email}. 
+Link to my github: (https://github.com/${data.github}/)
   
 `;
 }
