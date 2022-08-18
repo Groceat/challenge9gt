@@ -1,17 +1,18 @@
-# as
 
-  ![GitHub license](https://img.shields.io/badge/license-.MIT-blue.svg)
-  
+  New project
+
   ## Description
   
   undefined
   
   ## Table of Contents 
-  
+
   * [Installation](#installation)
-  
+
   * [Usage](#usage)
-  ![GitHub license](https://img.shields.io/badge/license-.MIT-blue.svg)
+
+  (#license)(#license)
+
   * [Contributing](#contributing)
   
   * [Tests](#tests)
@@ -20,31 +21,30 @@
   
   ## Installation
   
-  To install necessary dependencies, run the following command:
+  To install dependencies, run:
   
-  ```
-  undefined
-  ```
-  
+  npm i
+
   ## Usage
   
-  s
+  None of note
   
-  ![GitHub license](https://img.shields.io/badge/license-.MIT-blue.svg)
+  This project license is  GPL.
+
+  (https://img.shields.io/badge/license-GPL-blue.svg)
     
   ## Contributing
   
-  undefined
+  cant do it
   
   ## Tests
   
-  To run tests, run the following command:
+  To run tests, run:
   
-  ```
-  s
-  ```
+  npm jest
   
   ## Questions
   
-  If you have any questions about the repo, open an issue or contact me directly at as. You can find more of my work at [sa](https://github.com/sa/).
+Contact me at: bhyfch1@gmail.com. 
+Link to my github: (https://github.com/grocreat/)
   

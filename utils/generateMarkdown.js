@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   
   ${liscenseS(data.license)}
 
-  ${licenseB(license)}
+  ${licenseB(data.license)}
     
   ## Contributing
   
